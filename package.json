@@ -1,0 +1,25 @@
+{
+    "name": "angular-seed-wo-bower",
+    "private": true,
+    "version": "0.0.0",
+    "description": "AngularJS 1 starter (without bower, another http-server, removed tests)",
+    "repository": "https://github.com/angular/angular-seed",
+    "license": "MIT",
+    "devDependencies": {
+        "jasmine-core": "^2.4.1",
+        "protractor": "^3.2.2",
+        "watch-http-server": "^0.7.6"
+    },
+    "scripts": {
+        "prestart": "npm install",
+        "start": "whs -p 5555 -o -s"
+    },
+    "dependencies": {
+        "angular": "^1.5.8",
+        "angular-contentful": "^2.0.0",
+        "angular-loader": "^1.5.8",
+        "angular-mocks": "^1.5.8",
+        "angular-route": "^1.5.8",
+        "html5-boilerplate-npm": "^4.1.0-B"
+    }
+}
